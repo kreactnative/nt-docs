@@ -1,0 +1,27 @@
+site_name: Nathalin Docs
+nav:
+  - Home: "index.md"
+  - Kubernetes:
+    - Overview: 'k8s-overview.md'
+    - Architecture: 'k8s-arch.md'
+    - Neo4j: "k8s-neo4j.md"
+    - Backup-Restore: 'k8s-backup-restore.md'
+    - Upgrade: 'k8s-upgrade.md'
+  - Gitlab: 'gitlab.md'
+  - About: "about.md"
+theme:
+  name: material
+  schema: slate
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.copy
